@@ -5,15 +5,13 @@
     </div>
     <form @submit.prevent="hundleSubmit" class="login-form">
       <Input
-        :value="values.login"
-        @input="values.login = $event"
+        v-model="values.login"
         type="text"
         placeholder="Логин"
         class="mb-2"
       />
       <Input
-        :value="values.pass"
-        @input="values.pass = $event"
+        v-model="values.pass"
         type="text"
         placeholder="Пароль"
         class="mb-2"
