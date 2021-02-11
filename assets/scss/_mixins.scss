@@ -1,0 +1,23 @@
+@mixin border_input($full, $danger) {
+  @if ($full) {
+    border: 1px solid $gray100;
+    border-radius: $radius-sm;
+  } @else {
+    border-bottom: 1px solid $gray200;
+    padding-left: 0;
+  }
+  @if ($danger) {
+    border: 1px solid $gray100;
+  }
+
+  @if ($danger) {
+    border: 0;
+    border-bottom: 1px solid $red-base !important;
+  }
+}
+
+@mixin flex_all_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

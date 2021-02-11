@@ -1,0 +1,50 @@
+$full: false;
+$danger: false;
+
+// Fonts
+$font-family: "Montserrat", sans-serif;
+$font-size-base: 1rem;
+$font-size-sm: 0.875rem;
+
+// Colors
+$white: white;
+$black: black;
+$gray50: #eff1f9; /* Achromatic / Light gray */
+$gray100: #cbcbcb;
+$gray200: #6f849c; /* Achromatic / Dark grey */
+$gray300: #303136; /* Achromatic / Dark */
+$gray400: #2d2a3a;
+$gray500: #9496a6; /* placeholder */
+$red-base: #d6073d;
+$red-icon: #bd0d22;
+$green: #6fbc9a;
+
+// Space
+$space-xsm: 0.25rem;
+$space-sm: 0.5rem;
+$space-base: 1rem;
+$space-md: 1.25rem; /* 20px */
+$space-lg: 2rem; /* 20px */
+$space-xl: 2.5rem;
+$space-xxl: 3rem;
+
+$body-color: $gray50;
+$color-base: $black;
+$link-color: $gray300;
+$link-color-active: $color-base;
+
+$line-height-base: 1.5;
+$line-height-md: 1.75;
+
+$radius-sm: 0.5rem;
+$radius-base: 1rem;
+
+// Input
+$input-padding-x: $space-base;
+$input-padding-y: $space-sm;
+
+$input-padding-x-s: $space-sm;
+$input-padding-y-s: $space-xsm;
+
+// Heading
+$heading-one: 1.25rem;

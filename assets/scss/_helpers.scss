@@ -1,0 +1,13 @@
+$sizes: 1 1rem, 2 1.25rem, 3 1.5rem, 4 1.875rem;
+
+@each $num, $size in $sizes {
+  .mt-#{$num} {
+    margin-top: $size;
+  }
+}
+
+@each $num, $size in $sizes {
+  .mb-#{$num} {
+    margin-top: $size;
+  }
+}
